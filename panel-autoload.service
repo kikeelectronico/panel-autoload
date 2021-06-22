@@ -1,0 +1,11 @@
+[Unit]
+Description=Panel autoload
+After=network-online.target
+
+[Service]
+ExecStart=python3 main.py
+WorkingDirectory=/home/pi/panel-autoload
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
