@@ -21,4 +21,5 @@ while LOOP:
       os.system("catt cast \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"")
     else:
       os.system("catt cast_site \"" + WEB_PANEL + "\"")
-  time.sleep(30)
+  if LOOP:
+    time.sleep(30)
