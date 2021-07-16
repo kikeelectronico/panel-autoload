@@ -2,7 +2,7 @@ import pychromecast
 import os
 import time
 
-NAME = "Chromecast"
+NAME = "Chromecast Salón"
 TRIGGER_APP = "Backdrop"
 WEB_PANEL = "http://192.168.10.2:8080"
 TEST = False
@@ -15,7 +15,7 @@ if len(chromecasts) > 0:
 
   # It is the trigger app?
   if cast.status.display_name == TRIGGER_APP:
-    os.system("catt -d " + NAME + " set_default")
+    os.system("catt -d \"" + NAME + "\" set_default")
     if TEST:
       os.system("catt cast \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"")
     else:
