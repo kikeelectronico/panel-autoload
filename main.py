@@ -2,7 +2,7 @@ import pychromecast
 import os
 import time
 
-NAME = "Chromecast Salón"
+NAME = "Chromecast del salón"
 TRIGGER_APP = "Backdrop"
 WEB_PANEL = "http://192.168.10.2:81"
 TEST = False
