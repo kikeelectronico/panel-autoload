@@ -4,7 +4,7 @@ import time
 
 NAME = "Chromecast del salón"
 TRIGGER_APP = "Backdrop"
-WEB_PANEL = "http://192.168.10.2:81"
+WEB_PANEL = "http://datapanel.coruscant:81"
 TEST = False
 
 # Get the actual app
